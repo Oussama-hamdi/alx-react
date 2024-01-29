@@ -14,6 +14,11 @@ module.exports = {
   },
   mode: 'production',
   plugins: [new CleanWebpackPlugin(), new HtmlWebpackPlugin()],
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+    },
+  },
   module: {
     rules: [
       {
