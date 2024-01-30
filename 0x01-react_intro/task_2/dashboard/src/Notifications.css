@@ -2,3 +2,11 @@
   padding: 20px;
   border: 1px solid #777;
 }
+
+.Notifications [data-priority="default"] {
+  color: blue;
+}
+
+.Notifications [data-priority="urgent"] {
+  color: red;
+}
