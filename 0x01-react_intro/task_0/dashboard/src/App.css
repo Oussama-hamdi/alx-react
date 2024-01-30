@@ -1,0 +1,21 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App-header {
+  color: #e0364b;
+  font-size: 2rem;
+  border-bottom: 5px solid #e0364b;
+  display: flex;
+  align-items: center;
+}
+
+.App-body {
+  padding: 20px 40px;
+  border-bottom: 5px solid #e0364b;
+  height: 60vh;
+}
+
+.App-footer {
+  text-align: center;
+}
