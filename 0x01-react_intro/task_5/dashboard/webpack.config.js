@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
   },
   module: {
@@ -18,7 +18,6 @@ module.exports = {
             loader: "image-webpack-loader",
             options: {
               bypassOnDebug: true,
-              disable: true,
             },
           },
         ],
@@ -34,5 +33,5 @@ module.exports = {
   },
   mode: "development",
   devtool: "inline-source-map",
-  plugins: [new HtmlWebpackPlugin({ title: "Webpack" })],
+  plugins: [new HtmlWebpackPlugin({ title: "Dashboard" })],
 };
