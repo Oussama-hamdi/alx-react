@@ -1,4 +1,4 @@
-import { List, Map } from "immutable";
+import { List, Map } from 'immutable';
 
 export const concatElements = (list1, list2) => {
   return [...List(list1), ...List(list2)];
