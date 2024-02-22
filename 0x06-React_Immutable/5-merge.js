@@ -1,9 +1,9 @@
 import { List, Map } from 'immutable';
 
-export const concatElements = (list1, list2) => {
-  return [...List(list1), ...List(list2)];
+export const concatElements = (page1, page2) => {
+  return [...List(page1), ...List(page2)];
 };
 
-export const mergeElements = (map1, map2) => {
-  return Map(map1).merge(Map(map2));
+export const mergeElements = (page1, page2) => {
+  return Map(page1).merge(Map(page2));
 };
